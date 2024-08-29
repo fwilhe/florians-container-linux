@@ -5,3 +5,4 @@ slirp4netns
 uidmap
 dbus-user-session
 systemd-container
+passt
