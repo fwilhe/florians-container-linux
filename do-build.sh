@@ -12,7 +12,6 @@ vmType: qemu
 os: Linux
 images:
   - location: "$(greadlink -f $(find .build -name '*qcow2'))"
-    arch: "aarch64"
 
 containerd:
   system: false
